@@ -1,0 +1,35 @@
+{
+  "name": "tsetse",
+  "homepage": "https://github.com/innopals/tsetse",
+  "license": "Apache-2.0",
+  "scripts": {},
+  "lint-staged": {
+    "*.{js,json,md,ts,tsx,graphql}": [
+      "prettier --write"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": true,
+    "tabWidth": 2,
+    "arrowParens": "avoid",
+    "trailingComma": "all",
+    "printWidth": 80
+  },
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.5.1",
+    "prettier-plugin-organize-imports": "^2.3.4"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["es2020"],
+    "target": "es6",
+    "strict": true,
+    "module": "commonjs",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
