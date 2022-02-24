@@ -1,8 +1,29 @@
 {
   "name": "tsetse",
+  "description": "Tsetse language server plugin",
   "homepage": "https://github.com/innopals/tsetse",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:innopals/tsetse.git"
+  },
+  "keywords": [
+    "LSP",
+    "tsetse",
+    "typescript"
+  ],
   "license": "Apache-2.0",
-  "scripts": {},
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run dist",
+    "dist": "rimraf dist && tsc"
+  },
   "lint-staged": {
     "*.{js,json,md,ts,tsx,graphql}": [
       "prettier --write"
@@ -16,8 +37,8 @@
     "trailingComma": "all",
     "printWidth": 80
   },
-  "dependencies": {
-    "typescript": "^4.5.5"
+  "peerDependencies": {
+    "typescript": "*"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
@@ -30,6 +51,8 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
     "prettier": "^2.5.1",
-    "prettier-plugin-organize-imports": "^2.3.4"
+    "prettier-plugin-organize-imports": "^2.3.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.5"
   }
 }

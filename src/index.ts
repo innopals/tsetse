@@ -1,4 +1,4 @@
-import * as ts from 'typescript/lib/tsserverlibrary';
+import ts from 'typescript/lib/tsserverlibrary';
 import { Checker } from './checker';
 import * as pluginApi from './plugin_api';
 import { registerRules } from './runner';
