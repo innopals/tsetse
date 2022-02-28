@@ -3,7 +3,7 @@
  * due to strings also implementing `Iterable<string>`.
  */
 
-import * as ts from 'typescript';
+import ts from 'typescript';
 import { Checker } from '../checker';
 import { ErrorCode } from '../error_code';
 import { AbstractRule } from '../rule';

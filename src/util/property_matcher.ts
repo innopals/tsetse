@@ -1,5 +1,3 @@
-import * as ts from 'typescript';
-
 // TODO: Export the matched node kinds here.
 /**
  * This class matches a property access node, based on a property holder type

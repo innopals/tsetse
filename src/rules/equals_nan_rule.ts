@@ -3,7 +3,7 @@
  * code, since no value (including NaN) is equal to NaN.
  */
 
-import * as ts from 'typescript';
+import ts from 'typescript';
 import { Checker } from '../checker';
 import { ErrorCode } from '../error_code';
 import { AbstractRule } from '../rule';

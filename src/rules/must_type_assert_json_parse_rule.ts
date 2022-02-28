@@ -3,7 +3,7 @@
  * See http://tsetse.info/must-type-assert-json-parse
  */
 
-import * as ts from 'typescript';
+import ts from 'typescript';
 import { Checker } from '../checker';
 import { ErrorCode } from '../error_code';
 import { AbstractRule } from '../rule';

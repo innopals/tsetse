@@ -1,4 +1,4 @@
-import * as ts from 'typescript';
+import ts from 'typescript';
 
 /**
  * A Tsetse check Failure is almost identical to a Diagnostic from TypeScript

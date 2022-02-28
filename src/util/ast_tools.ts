@@ -3,7 +3,7 @@
  * a TypeScript AST, used by JSConformance rules and elsewhere.
  */
 
-import * as ts from 'typescript';
+import ts from 'typescript';
 
 /**
  * Triggers increased verbosity in the rules.

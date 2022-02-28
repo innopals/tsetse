@@ -21,7 +21,7 @@
  * It's roughly analogous to how the Language Service allows plugins.
  */
 
-import * as ts from 'typescript';
+import ts from 'typescript';
 
 export interface PluginCompilerHost extends ts.CompilerHost {
   /**

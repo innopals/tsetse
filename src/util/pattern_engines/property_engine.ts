@@ -1,4 +1,3 @@
-import * as ts from 'typescript';
 import { Checker } from '../../checker';
 import { debugLog } from '../ast_tools';
 import { PropertyMatcher } from '../property_matcher';

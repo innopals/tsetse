@@ -1,4 +1,4 @@
-import * as ts from 'typescript';
+import ts from 'typescript';
 import { Checker } from '../../checker';
 import { AbsoluteMatcher } from '../absolute_matcher';
 import { debugLog } from '../ast_tools';

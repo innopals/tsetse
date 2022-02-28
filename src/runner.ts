@@ -2,7 +2,7 @@
  * @fileoverview Runner is the entry point of running Tsetse checks in compiler.
  */
 
-import * as ts from 'typescript';
+import ts from 'typescript';
 import { Checker } from './checker';
 import * as pluginApi from './plugin_api';
 import { AbstractRule } from './rule';

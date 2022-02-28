@@ -1,5 +1,5 @@
 import * as path from 'path';
-import * as ts from 'typescript';
+import ts from 'typescript';
 import { Checker } from '../../checker';
 import { Fix } from '../../failure';
 import { Allowlist } from '../../util/allowlist';
