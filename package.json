@@ -12,7 +12,7 @@
     "typescript"
   ],
   "license": "Apache-2.0",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
@@ -45,18 +45,21 @@
     "typescript": "*"
   },
   "devDependencies": {
-    "@types/node": "^17.0.21",
-    "@typescript-eslint/eslint-plugin": "^5.12.1",
-    "@typescript-eslint/parser": "^5.12.1",
-    "eslint": "^8.9.0",
-    "eslint-config-prettier": "^8.4.0",
-    "eslint-plugin-import": "^2.25.4",
+    "@types/node": "^17.0.38",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.4",
-    "prettier": "^2.5.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.0",
+    "prettier": "^2.6.2",
     "prettier-plugin-organize-imports": "^2.3.4",
     "rimraf": "^3.0.2",
-    "typescript": "^4.5.5"
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "tsutils": "^3.21.0"
   }
 }
